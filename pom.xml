@@ -8,11 +8,11 @@
 		<version>2.1.6.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.tel</groupId>
-	<artifactId>SpringBootJPA</artifactId>
+	<groupId>com.sb</groupId>
+	<artifactId>SpringBootSimpleUserJPA</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SpringBootJPA</name>
-	<description>Demo project for Spring Boot</description>
+	<name>SpringBootSimpleUserJPA</name>
+	<description>pringBoot integration with H2 Database</description>
 
 	<properties>
 		<java.version>1.8</java.version>
