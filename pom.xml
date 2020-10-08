@@ -86,22 +86,7 @@
 		
 	</build>
 	
-	<pluginRepositories>
-    <pluginRepository>
-        
-        <releases>
-            <enabled>true</enabled>
-            <updatePolicy>always</updatePolicy>
-            <checksumPolicy>warn</checksumPolicy>
-        </releases>
-        <snapshots>
-            <enabled>true</enabled>
-            <updatePolicy>always</updatePolicy>
-            <checksumPolicy>fail</checksumPolicy>
-        </snapshots>
-        
-    </pluginRepository>
-</pluginRepositories>
+	
 	
    <distributionManagement>
     
@@ -110,5 +95,24 @@
       <url>http://localhost:8081/nexus/content/repositories/SpringBootSimpleUserJPA-REL/</url>
     </repository>
   </distributionManagement>
+	
+	<pluginRepositories>
+    <pluginRepository>
+        
+        <releases>
+		<id>nexus-releases</id>
+            <enabled>true</enabled>
+            <updatePolicy>always</updatePolicy>
+            <checksumPolicy>warn</checksumPolicy>
+        </releases>
+        <snapshots>
+		<id>nexus-snapshots</id>
+            <enabled>true</enabled>
+            <updatePolicy>always</updatePolicy>
+            <checksumPolicy>fail</checksumPolicy>
+        </snapshots>
+        
+    </pluginRepository>
+</pluginRepositories>
 
 </project>
