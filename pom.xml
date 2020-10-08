@@ -100,13 +100,13 @@
     <pluginRepository>
         
         <releases>
-		<id>nexus-releases</id>
+		
             <enabled>true</enabled>
             <updatePolicy>always</updatePolicy>
             <checksumPolicy>warn</checksumPolicy>
         </releases>
         <snapshots>
-		<id>nexus-snapshots</id>
+		
             <enabled>true</enabled>
             <updatePolicy>always</updatePolicy>
             <checksumPolicy>fail</checksumPolicy>
