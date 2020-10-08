@@ -93,17 +93,13 @@
     <repository>
       <id>nexus-releases</id>
       <url>http://localhost:8081/nexus/content/repositories/SpringBootSimpleUserJPA-REL/</url>
-	    <enabled>true</enabled>
-            <updatePolicy>always</updatePolicy>
-            <checksumPolicy>warn</checksumPolicy>
+	    
     </repository>
 	   
 	    <snapshotRepository>
 		    <id>nexus-snapshots</id>
       <url>http://localhost:8081/nexus/content/repositories/SpringBootSimpleUserJPA/</url>
-            <enabled>true</enabled>
-            <updatePolicy>always</updatePolicy>
-            <checksumPolicy>fail</checksumPolicy>
+            
         </snapshotRepository>
   </distributionManagement>
 	
