@@ -98,7 +98,7 @@
 	   
 	    <snapshotRepository>
 		    <id>nexus-snapshots</id>
-      <url>http://localhost:8081/nexus/content/repositories/SpringBootSimpleUserJPA/</url>
+      <url>http://localhost:8081/nexus/content/repositories/SpringBootSimpleUserJPA-SNAP/</url>
             
         </snapshotRepository>
   </distributionManagement>
