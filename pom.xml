@@ -96,23 +96,6 @@
     </repository>
   </distributionManagement>
 	
-	<pluginRepositories>
-    <pluginRepository>
-        
-        <releases>
-		
-            <enabled>true</enabled>
-            <updatePolicy>always</updatePolicy>
-            <checksumPolicy>warn</checksumPolicy>
-        </releases>
-        <snapshots>
-		
-            <enabled>true</enabled>
-            <updatePolicy>always</updatePolicy>
-            <checksumPolicy>fail</checksumPolicy>
-        </snapshots>
-        
-    </pluginRepository>
-</pluginRepositories>
+	
 
 </project>
