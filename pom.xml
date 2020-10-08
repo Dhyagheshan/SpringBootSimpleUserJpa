@@ -78,10 +78,7 @@
 	</build>
 	
    <distributionManagement>
-    <snapshotRepository>
-      <id>nexus-snapshots</id>
-      <url>http://localhost:8081/nexus/content/repositories/SpringBootSimpleUserJPA/</url>
-    </snapshotRepository>
+    
     <repository>
       <id>nexus-releases</id>
       <url>http://localhost:8081/nexus/content/repositories/SpringBootSimpleUserJPA-REL/</url>
