@@ -5,6 +5,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 
 import com.sb.demo.dao.UserRepo;
 import com.sb.demo.model.User;
@@ -33,6 +35,12 @@ public class UserController {
 		User user=repo.findById(userid).orElse(new User());
 		mv.addObject(user);
 		return mv;
+	}
+	
+	@GetMapping("/welcome/{username}")
+	public String welcomeUser(@PathVariable("username") String username){
+		
+		return "Hello "+username+". Welcome to SpringBootSimpleUserJPA Application";
 	}
 
 }
