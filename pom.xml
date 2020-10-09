@@ -12,6 +12,7 @@
 	<artifactId>SpringBootSimpleUserJPA</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SpringBootSimpleUserJPA</name>
+	<packaging>war</packaging>
 	<description>SpringBoot integration with H2 Database</description>
 
 	<properties>
