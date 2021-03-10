@@ -9,6 +9,6 @@ You can go to "http://localhost:<yourportnumber>/h2-console" to open h2 database
   
 You can also trigger build  in jenkins and upload to nexus repository by using proper configurations.
 
-Triggering build automatically when a push to git happens may not be done using jenkins in localhost.
+Triggering build automatically when a push to git happens, may not be done using jenkins in localhost.
 
 We can also schedule build in jenkins using Poll SCM
